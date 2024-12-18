@@ -26,10 +26,8 @@ Refer to ["Configure STM32 Devices with CubeMX"](https://github.com/Open-CMSIS-P
 |:----------------------|:----------------------|:----------------------------------------------|:------------------------------
 | Driver_USART1         | USART1                | ST-LINK connector (CN21)                      | STDIN, STDOUT, STDERR
 | Driver_USART3         | USART3                | Motor-control connector pins 5, 9 (CN4)       | CMSIS_USART
-| Driver_USBD1          | USB_FS                | USB Type-C connector (CN22)                   | CMSIS_USB_Device
-| CMSIS-Driver VIO      | GPIO                  | LEDs (LD1, LD3) and TAMPER button (B2)        | CMSIS_VIO
-
-Reference to [Arduino UNO connector description](https://github.com/Open-CMSIS-Pack/cmsis-toolbox/blob/main/docs/ReferenceApplications.md#arduino-shield).
+| Driver_USBD0          | USB_FS                | USB Type-C connector (CN22)                   | CMSIS_USB_Device
+| CMSIS-Driver VIO      | GPIO                  | LEDs (LD3, LD1) and TAMPER button (B2)        | CMSIS_VIO
 
 ### CMSIS-Driver Virtual I/O mapping
 

@@ -14,8 +14,9 @@ The **STMicroelectronics STM32G474E-EVAL1 Board Support Pack (BSP)**:
 
 | Provided API Interface        | Description
 |:------------------------------|:------------------------------------------------------------------------------
+| CMSIS_USART                   | CMSIS-Driver USART connected to Motor-control connector (pins 5, 9) (CN4)
 | CMSIS_USB_Device              | CMSIS-Driver USB Device connected to USB_FS connector (CN22)
-| CMSIS_VIO                     | CMSIS-Driver VIO connected to LEDs (LD1, LD3) and TAMPER button (B2)
+| CMSIS_VIO                     | CMSIS-Driver VIO connected to LEDs (LD3, LD1) and TAMPER button (B2)
 | STDIN, STDOUT, STDERR         | Standard I/O connected to Virtual COM port on ST-LINK connector (CN21)
 
 ## Using GCC Compiler

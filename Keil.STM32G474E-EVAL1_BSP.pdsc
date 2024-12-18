@@ -14,18 +14,8 @@
   </licenseSets>
 
   <releases>
-    <release version="0.0.0">
-      Active development...
-      Prepared for new CMSIS-Toolbox CubeMX integration
-      Board description for STM32G474E-EVAL1
-      Default Board Layer
-      Blinky example (CMSIS Solution)
-      CMSIS Drivers:
-      - CMSIS-Driver VIO
-      Reorganized Licenses:
-      - LICENSES (combined license file: Apache-2.0 and BSD-3-Clause)
-      - LICENSE-Apache-2.0 (for CMSIS add-ons)
-      - LICENSE-BSD-3-Clause (for STM32 HAL)
+    <release version="1.0.1-dev">
+      Active development ...
     </release>
   </releases>
 
